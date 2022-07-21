@@ -1,0 +1,32 @@
+- Meeting conducted
+	Discussed the topics from the day before 
+- Task Python basics and operations
+	The company has to implement a new system to track employees working hours and tasks. This system should follow the below guidelines:
+	Every day we have to create a JSON file separately for each employee. The file name must include the current date and employee name.
+	This file should contain complete task details of that employee in a single dictionary for that day.
+	The employee should log in to the tracking system every morning and should log out by the end of the day.
+	There will be tasks one after another for the same day. So employees should log the beginning and end of the task so that we can calculate the 		time the employee took for the particular task.
+	Once the employee was logged out the employee-date JSON file should be created containing every task detail done on that day.
+	Each logging task should have:
+	{
+		"task_title": "Title of the task",
+		"task_description": "Detailed explanation of the task",
+		"start_time" : "yyyy-mm-dd hh:mm",
+		"end_time" : "yyyy-mm-dd hh:mm",
+		"task_success": True or False
+	}
+	You should create a python class that will be used by each employee to log their task.
+	Every day each employee will create an instance of your class and this instance is used to log in, add task, end task and log out.
+	There should be a main task list class attribute. Once a task is completed, that task details should be appended to the main task list.
+	The json file for a day should be like:
+	{
+		"emp_name": "Name of the employee",
+		"emp_id": 1,
+		"login_time": "yyyy-mm-dd hh:mm",
+		"logout_time": "yyyy-mm-dd hh:mm",
+		“tasks”:[
+			{ task 1 details },
+			{ task 2 details },
+			{ task 3 details }
+		]
+
