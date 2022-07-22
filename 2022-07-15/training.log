@@ -1,0 +1,31 @@
+-Topics to learn
+	1. requests - https://docs.python-requests.org/en/master/
+	2. re - https://www.w3schools.com/python/python_regex.asp
+	3. json - https://www.w3schools.com/python/python_json.asp
+	4. csv - https://docs.python.org/3/library/csv.html
+	5. pymongo - https://pymongo.readthedocs.io/en/stable/tutorial.html
+	6. scrapy - https://docs.scrapy.org/en/latest/intro/tutorial.html
+		a. Request
+		b. FormRequest
+		c. Response
+		d. Shell, inspect_response
+		e. Selector
+	7. selenium - https://selenium-python.readthedocs.io/
+	8. pika - https://pika.readthedocs.io/en/stable/
+	9. logging - https://docs.python.org/3/library/logging.html
+       10. ast
+       11. datetime
+       12. urllib
+       13. time
+       14. xml
+       15. lxml
+       16. base64 - https://docs.python.org/3/library/base64.html
+       17. os
+       18. random
+       19. ftplib
+       20. dropbox
+       21. boto3
+       22. cloudscraper - https://pypi.org/project/cloudscraper/
+       23. js2py
+       24. ipython
+	
