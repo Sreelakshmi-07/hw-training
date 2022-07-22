@@ -1,0 +1,22 @@
+{
+    "emp_name": "emp",
+    "emp_id": 101,
+    "login_time": "2022-07-20 11:16",
+    "logout_time": "2022-07-20 11:16",
+    "tasks": [
+        {
+            "task_title": "good reads",
+            "task_description": "scrape",
+            "start_time": "2022-07-20 11:16",
+            "end_time": "2022-07-20 11:16",
+            "task_success": "true"
+        },
+        {
+            "task_title": "amazon reads",
+            "task_description": "scrape",
+            "start_time": "2022-07-20 11:16",
+            "end_time": "2022-07-20 11:16",
+            "task_success": "true"
+        }
+    ]
+}

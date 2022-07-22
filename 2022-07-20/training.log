@@ -1,0 +1,21 @@
+- Meeting conducted 
+	Advised to remove def task_examine(self,task_success) , global task variable
+	Explained several function flaws, the distinction between local and global variables
+	The self argument, and the difference between the functions for producing lists before and after a function.
+	Notable alterations that occurred:
+		1. def employee(self, emp_name, emp_id):
+
+       			 self.task_list = []
+
+		2.  def end_task(self, task_success):
+
+        		self.task_success = task_success
+        		end = datetime.now()
+- Topics to learn
+	1. Requests - https://docs.python-requests.org/en/master/
+	2. Parsel - https://parsel.readthedocs.io/en/latest/usage.html
+
+		
+
+	
+
