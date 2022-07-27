@@ -1,0 +1,20 @@
+- Task modified as given requirement
+- Topics to learn
+	1. re - https://www.w3schools.com/python/python_regex.asp
+	2. json - https://www.w3schools.com/python/python_json.asp
+	3. csv - https://docs.python.org/3/library/csv.html
+- Task was stored in csv format
+- Topics to learn
+	1. Mongodb - https://www.mongodb.com/docs/manual/
+		a. Insert, delete, update, bulk insert
+		b. Exporting, importing, dumping and restore
+		c. GUI tools - compass
+		d. Sharding, clustering, nodes
+		e. Indexing
+		f. What is object ID and how to generate timestamp from object?
+		g. Mongodb guidelines
+			i. Indexing with unique key
+		       ii. Collection and database sharding
+		      iii. Naming standards for collections and databases
+		       iv. Data backup
+			
