@@ -1,0 +1,16 @@
+- Meeting conducted
+	Detailed study about xpath
+		1. listing page and detailed page
+		2. site's structure can be changed overtime,to overcome this  when identifying xpath it should be done in specific and precise manner
+		3. dynamic attributes are meaningless and only be used in worst case scenario
+		4. always extract meaningful xpath elements
+		5. xpath should be short and specific
+		6. don't prefer index position when identifying nodes
+- New Task
+	Scrape-https://www.nykaa.com/makeup/face/face-primer/c/233
+- Topics to learn
+	Mongodb - https://www.mongodb.com/docs/manual/
+- Installed MongoDB Compass
+
+
+	
