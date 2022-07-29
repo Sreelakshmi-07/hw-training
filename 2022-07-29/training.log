@@ -1,0 +1,7 @@
+- Meeting conducted
+	Chrome inspect is utilised to obtain elements, nodes, and the network need to fetch urls,request format
+	It's important to avoid overloading and keep the maximum request amount low during scraping.
+	Make use of pagination to load the pages.
+	Utilize the api to access the specified page's information using json.
+- New task 
+	retrieve data using api and json
