@@ -1,0 +1,21 @@
+- Topics to learn
+	1. selenium - https://selenium-python.readthedocs.io/
+	2. pika - https://pika.readthedocs.io/en/stable/
+	3. logging - https://docs.python.org/3/library/logging.html
+        4. ast
+        5. datetime
+        6. urllib
+        7. time
+        8. xml
+        9. lxml
+       10. base64 - https://docs.python.org/3/library/base64.html
+       11. os
+       12. random
+       13. ftplib
+       14. dropbox
+       15. boto3
+       16. cloudscraper - https://pypi.org/project/cloudscraper/
+       17. js2py
+       18. ipython
+
+- Installed packages
