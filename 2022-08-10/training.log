@@ -1,0 +1,17 @@
+- Training begain in FRT team
+- Meeting Conducted
+	The feasibility assessment and comprehension of client needs are the first steps.
+	Since manual effort cannot be used for large projects, information is filtered by category into subcategories before being defined to the end category.
+	RabbitMQ and a database are utilized.
+	Using proxies will prevent bot detection and blocking
+	Each projects requires different method of approach
+	Location dependant provides data accoring to domains,zip code and locations
+	The websites use a variety of techniques to detect bots, including recaptcha, slide captcha, click-to-point, images, etc.
+	Depending on the client's preference, data is uploaded via Dropbox, AWS S3, FTP, etc.
+	Each project is implemented in accordance with the needs of the client; examples include e-commerce websites, business directories, and the ability to download documents in PDF or image format or conduct Google searches.
+	Mongodb is typically written with lowercase and an underscore.
+	After the initial stage is completed, QA evaluates.
+	If it is a recurring project it is handed over to RT.
+- Topics to learn
+	Commands on linux and MongoDB
+
