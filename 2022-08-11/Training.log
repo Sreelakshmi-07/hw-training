@@ -1,0 +1,12 @@
+- Meeting Conducted
+
+	Webscraper and cloud-scraper concepts were explained.
+	Webscraper was used to scrape data, which was then converted into a CSV file.		
+	The sponsored item in the list should not be taken when using xpath on a listing page.
+	paginations come in various forms.
+	Use of price filters, which may also depend on the sites, is one of the finest methods in cases of pagination limitations.
+	You need a port number, user name, password, and authentication to connect to a Mongodb server.
+	The most crucial Mongodb techniques are sharding and indexing.
+	When naming databases and collections, it is crucial to follow to naming conventions.
+	Testing Mongodb in parallel is a convenient approach.
+	
