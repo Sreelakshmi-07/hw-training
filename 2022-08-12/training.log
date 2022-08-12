@@ -1,0 +1,8 @@
+-Meeting Conducted
+	Learned how to write Python programmes to get photos and PDFs.
+	Since it takes time to manually extract and upload documents to services like Dropbox, FTP, and AWS, the extracted documents are directly uploaded using python while coding.
+	DevOps configures servers based on the requirements.
+	Nohup files and cache files shouldn't be uploaded while the project is being pushed.
+	RabbitMQ handles multiple instances.
+	nohup python3 filename.py &
+	ps aux | grep python
