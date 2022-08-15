@@ -1,0 +1,51 @@
+{
+    "medicine_name": "Abacavir / Lamivudine",
+    "price": "5760.00",
+    "form": "Tablet",
+    "strength": "600mg-300mg"
+}{
+    "medicine_name": "Acetazolamide",
+    "price": "930.00",
+    "form": "Tablet",
+    "strength": "250mg"
+}{
+    "medicine_name": "Acyclovir",
+    "price": "660.00",
+    "form": "Tablet",
+    "strength": "400mg"
+}{
+    "medicine_name": "Albendazole",
+    "price": "45300.00",
+    "form": "Tablet",
+    "strength": "200mg"
+}{
+    "medicine_name": "Albuterol",
+    "price": "3000.00",
+    "form": "Inhaler",
+    "strength": "90mcg"
+}{
+    "medicine_name": "Albuterol",
+    "price": "4325.00",
+    "form": "Inhaler",
+    "strength": "90mcg"
+}{
+    "medicine_name": "Albuterol",
+    "price": "2191.00",
+    "form": "Inhaler",
+    "strength": "90mcg"
+}{
+    "medicine_name": "Albuterol Sulfate",
+    "price": "650.00",
+    "form": "Nebulization Solution",
+    "strength": "0.083%"
+}{
+    "medicine_name": "Alendronate",
+    "price": "1860.00",
+    "form": "Tablet",
+    "strength": "70mg"
+}{
+    "medicine_name": "Alfuzosin HCl ER",
+    "price": "630.00",
+    "form": "Tablet",
+    "strength": "10mg"
+}
