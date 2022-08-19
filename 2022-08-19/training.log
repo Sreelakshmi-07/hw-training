@@ -1,0 +1,5 @@
+- Updates to make	
+	5. link_response write in relative xpath
+	4. name and asin write out of yield field
+	3. Go to each page without specifying the range of pages
+	4. change format of date_first_available to YYYY-MM-DD
