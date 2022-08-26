@@ -1,0 +1,2 @@
+- New requirements
+	 First 30 customer reviews of each product. Each review should have review_author, review_date, review_rating, review_text
