@@ -1,0 +1,12 @@
+- Meeting Conducted
+	There should be no mistakes made when doing qa. For the Qa process, there are numerous steps.
+	1) Data collection and organisation .
+	2) Examining the filename, fields, and other information in the Google sheet.
+	3) Quality Assurance tools and Checklists.
+	4) Recognizing earlier problems.
+	5) Dividing the retrieved data file for partial validation.
+	6) Script check.
+	(7) Mongidb compass, live running check, precheching the sites, random check.
+	8) The image must be in jpg format.
+- Task
+	Validating data extracted for QA
