@@ -1,0 +1,23 @@
+- Proxies
+	Web scraping proxies are IP addresses that you route your requests through instead of using your own or servers IP address.
+	https://marianhburnsk.medium.com/scrapy-proxy-101-how-to-set-up-proxies-for-scrapy-f823c7975734
+- Integrating proxies in scrapy
+	https://scrapeops.io/python-scrapy-playbook/scrapy-rotating-proxy-guide/#:~:text=%E2%80%8B,the%20target%20website%20blocking%20us.
+	## settings.py
+
+	## Insert Your List of Proxies Here
+	ROTATING_PROXY_LIST = [
+	    'proxy1.com:8000',
+	    'proxy2.com:8031',
+	    'proxy3.com:8032',
+	]
+
+	## Enable The Proxy Middleware In Your Downloader Middlewares
+	DOWNLOADER_MIDDLEWARES = {
+	    # ...
+	    'rotating_proxies.middlewares.RotatingProxyMiddleware': 610,
+	    'rotating_proxies.middlewares.BanDetectionMiddleware': 620,
+	    # ...
+	}
+
+
