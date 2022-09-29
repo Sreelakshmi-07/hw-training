@@ -1,0 +1,38 @@
+- Mongodb Queries
+
+	- $eq : Specifies equality condition. The $eq operator matches documents where the value 		of a field equals the specified value.
+	syntax : { <field>: { $eq: <value> } }
+	eg : { title : { $eq : "N/A" } }
+
+	- $type : $type selects documents where the value of the field is an instance of the 		specified BSON type(s).
+	syntax : { field: { $type: <BSON type> } }
+	eg : { state: { $type : "string" } }
+
+	- $regex : Provides regular expression capabilities for pattern matching strings in 		queries. MongoDB uses Perl compatible regular expressions (i.e. "PCRE" ) version 8.42 with 		UTF-8 support.
+	syntax : { <field>: { $regex: /pattern/, $options: '<options>' } }
+		 { <field>: { $regex: 'pattern', $options: '<options>' } }
+		 { <field>: { $regex: /pattern/<options> } }
+	eg : {image_url: {$regex:/https?:\/\/.*\.(?:jpg)/} }
+	
+	- $where : Use the $where operator to pass either a string containing a JavaScript 		expression or a full JavaScript function to the query system
+	syntax : { $where: <string|JavaScript Code> }
+	eg : { $where : "this.bedrooms == this.bathroom" }
+
+	- $size : The $size operator matches any array with the number of elements specified by 	the argument.
+	syntax : db.collection.find( { field: { $size: 2 } } )
+	eg : { breadcrumbs : { $size : 6 } }
+	
+	- $nin : $nin selects the documents where: the field value is not in the specified array 	 or the field does not exist.
+ 	syntax : { field: { $nin: [ <value1>, <value2> ... <valueN> ] } }
+	eg : { state : {$nin : ['Iowa'] } }
+
+	- $in : The $in operator selects the documents where the value of a field equals any value 		in the specified array.
+	syntax : { field: { $in: [<value1>, <value2>, ... <valueN> ] } }
+	eg : { state : {$in : ['Iowa'] } }
+	
+	- $ne : Matches all values that are not equal to a specified value. 
+	syntax : { field: { $ne: value } }
+	eg : { state : {$ne : ['Iowa'] } }
+
+	
+	
