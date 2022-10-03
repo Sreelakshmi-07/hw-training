@@ -1,0 +1,23 @@
+- Meeting conducted
+	- Qa tasks
+		1. houlihanlawrence
+		2. huff reality
+		3. rubina realestate
+	- Web scraping using APIs
+		- APIs follow an extremely standardized set of rules to produce information.
+		- Methods
+			There are four ways to request information from a web server via HTTP:
+
+			1. GET
+			2. POST
+			3. PUT
+			4. DELETE
+		- Authentication
+			Although some APIs do not use any authentication to operate many modern APIs require some type of authentication before they can be used
+			Charge money per API call, or service on some sort of a monthly subscription basis. Others authenticate  “rate limit” users (restrict them to a certain number of calls per second, hour, or day), or to restrict the access of certain kinds of information or types of API calls for some users. 	
+			All methods of API authentication generally revolve around the use of a token of some sort, which is passed to the web server with each API call made.
+			eg : token = "<your api key>"
+			     webRequest = urllib.request.Request("http://myapi.com", headers={"token":token})
+			     html = urlopen(webRequest)
+		
+
