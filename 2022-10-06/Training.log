@@ -1,0 +1,39 @@
+- Meeting Conducted
+	- Playwright [https://playwright.dev/docs/api/class-playwright]
+
+		Playwright is a Python library to automate Chromium, Firefox and WebKit browsers with a single API. Playwright delivers automation that is ever-green, capable, reliable and fast.
+		Playwright module provides a method to launch a browser instance.
+		There are just three steps to set up Playwright on a development machine.
+
+			--pip install playwright
+			--playwright install
+			--pip install pytest-playwright
+
+		- Selectors
+
+			XPath selectors : XPath selectors are equivalent to calling Document.evaluate. Example: xpath=//html/body.
+			Selector starting with // or .. is assumed to be an xpath selector. For example, Playwright converts '//html/body' to 'xpath=//html/body'.
+		- Sync and Async 
+			Sync operates line-by-line, whereas Async allows for parallel processing.
+
+		- A Browser is created via browser_type.launch(**kwargs). 
+			eg :     firefox = playwright.firefox
+    				 browser = firefox.launch()
+
+		- playwright.stop() - Terminates this instance of Playwright in case it was created bypassing the Python context manager
+		- playwright.devices - Returns a dictionary of devices to be used with browser.new_context(**kwargs) or browser.new_page(**kwargs).
+			eg: 	iphone = playwright.devices["iPhone 6"]
+		- browser.close() - closes the browser and all of its pages
+		- browser.newPage([options]) 
+			acceptDownloads? - <boolean> Whether to automatically download all the attachments. Defaults to true where all the downloads are accepted
+			baseURL? - <string> When using page.goto(url[, options]), page.route(url, handler[, options]), page.waitForURL(url[, options]), page.waitForRequest(urlOrPredicate[, options]), or page.waitForResponse(urlOrPredicate[, options]) it takes the base URL in consideration by using the URL() constructor for building the corresponding URL
+
+		- Headless mode Playwright
+			 By default, Playwright will run in headless mode! That means we won't see anything of what is happening in the browser when our script runs.
+
+
+	- Cloudscraper
+
+		A simple Python module to bypass Cloudflare's anti-bot page (also known as "I'm Under Attack Mode", or IUAM), implemented with Requests.
+		
+
