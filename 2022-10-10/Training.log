@@ -1,0 +1,32 @@
+- Qa task
+	1. Winparts
+- Meeting Conducted
+	-  meeting was conducted to clear doubts cloudscraper
+	- playwright
+		-- page.route(url, handler, **kwargs):
+			url <str|Pattern|Callable[URL]:bool> A glob pattern, regex pattern or predicate receiving URL to match while routing. When a base_url via the context options was provided and the passed URL is a path, it gets merged via the new URL() constructor.#
+			handler <Callable[Route, Request]> handler function to route the request.#
+			times <int> How often a route should be used. By default it will be used every time. Added in: v1.15#
+			returns: <NoneType>#
+			Routing provides the capability to modify network requests that are made by a page.
+			Once routing is enabled, every request matching the url pattern will stall unless it's continued, fulfilled or aborted.
+		-- page.content()
+			returns: <str>#
+			Gets the full HTML contents of the page, including the doctype.
+		
+		-- page.click(selector, **kwargs)
+			selector <str> A selector to search for an element. If there are multiple elements satisfying the selector, the first will be used. See working with selectors for more details.#
+			button <"left"|"right"|"middle"> Defaults to left.#
+			click_count <int> defaults to 1. See UIEvent.detail.#
+			delay <float> Time to wait between mousedown and mouseup in milliseconds. Defaults to 0.#
+			force <bool> Whether to bypass the actionability checks. Defaults to false.#
+			modifiers <List["Alt"|"Control"|"Meta"|"Shift"]> Modifier keys to press. Ensures that only these modifiers are pressed during the operation, and then restores current modifiers back. If not specified, currently pressed modifiers are used.#
+			no_wait_after <bool> Actions that initiate navigations are waiting for these navigations to happen and for pages to start loading. You can opt out of waiting via setting this flag. You would only need this option in the exceptional cases such as navigating to inaccessible pages. Defaults to false.#
+			position <Dict> A point to use relative to the top-left corner of element padding box. If not specified, uses some visible point of the element.#
+			x <float>
+			y <float>
+			strict <bool> When true, the call requires selector to resolve to a single element. If given selector resolves to more than one element, the call throws an exception. Added in: v1.14#
+			timeout <float> Maximum time in milliseconds, defaults to 30 seconds, pass 0 to disable timeout. The default value can be changed by using the browser_context.set_default_timeout(timeout) or page.set_default_timeout(timeout) methods.#
+			trial <bool> When set, this method only performs the actionability checks and skips the action. Defaults to false. Useful to wait until the element is ready for the action without performing it. 
+			returns: <NoneType>#
+
