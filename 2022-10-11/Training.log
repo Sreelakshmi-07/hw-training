@@ -1,0 +1,11 @@
+- Meeting conducted
+	- QA Pre-checking site : Houza
+	- Playwright
+		- Take screenshot
+			playwright screenshot --full-page http://quotes.toscrape.com/tag/reading/ quote-full.png
+		- Generate PDF
+			playwright pdf http://quotes.toscrape.com/tag/reading/ quote.pdf
+	- Privacy Pass
+		- A Python module implementing the Privacy Pass protocol. Privacy Pass is supported by Cloudflare (and is in the process of becoming standardised by the IETF) to enable users to redeem passes instead of having to solve CAPTCHAs to visit protected websites
+		- pip install privacypass
+		
